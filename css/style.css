@@ -1,0 +1,214 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+/*Start navbar */
+
+#navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  -webkit-flex-flow: row wrap;
+  z-index: 1;
+  width: 97%;
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+a:hover {
+  background-color: #383A3F;
+  color: #7f9eb2;
+}
+
+a:active {
+  background-color: #383A3F;
+}
+
+/*End navbar*/
+
+/*Start introduction*/
+
+#introduction {
+  background-image: url(../img/imgfree.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  opacity: 0.7;
+  position: relative;
+}
+
+#introductionTxt {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 27px;
+  letter-spacing: 8px;
+  color: #000;
+}
+
+#introduction #introductionTxt .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+/*End introduction*/
+
+/*Start skills*/
+
+.skills .progress .techn span {
+  background-color: #7f9eb2;
+  height: 25px;
+  display: block;
+  line-height: 25px;
+  text-align: right;
+  color: #fff;
+  font-weight: bold;
+}
+
+.skills .progress .techn {
+  margin-left: 50px;
+}
+
+.skills #skillTitle {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*End skills*/
+
+/*Start language*/
+
+.language {
+  background-color: #dadbdb;
+  padding-bottom: 20px;
+}
+
+.language #languageTitle {
+  padding-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.language .progress .techn {
+  margin-left: 50px;
+}
+
+.language .progress .techn span {
+  background-color: #7f9eb2;
+  height: 25px;
+  display: block;
+  line-height: 25px;
+  text-align: right;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*End language*/
+
+/*Start Contact*/
+
+.contact {
+  background-color: #252F31;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.contact .info {
+  width: 50%;
+  float: left;
+  margin-right: 5%;
+}
+
+.contact .info p #mail:before {
+  content: "@";
+}
+
+.contact .info p #phone:before {
+  content: "\260F";
+}
+
+.contact h2 {
+  color: #fff;
+  margin-left: 40px;
+}
+
+.contact p {
+  color: #6A6E71;
+  line-height: 1.7;
+  margin-left: 40px;
+}
+
+.contact p strong {
+  color: #D1D6DA;
+}
+
+.contact .form {
+  width: 45%;
+  float: left;
+}
+
+.contact .form label {
+  display: block;
+  color: #D1D6DA;
+  margin: 10px 0;
+}
+
+.contact .form label:after {
+  content: "*";
+  color: red;
+}
+
+.contact .form input[type=text] {
+  background-color: #4B5557;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.contact .form textarea {
+  background-color: #4B5557;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+  height: 300px;
+}
+
+.contact .form input[type="submit"] {
+  background-color: #191E22;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/*end contact me*/
